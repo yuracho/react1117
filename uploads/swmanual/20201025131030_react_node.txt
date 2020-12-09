@@ -1,0 +1,35 @@
+app.js react 라우팅해주는 역할
+app.test => 1. render 반환값이 있는 함수(생명주기함수) 2. component html실행 된 후 실행 되는 것 
+server.js node
+client react
+그외는 node
+
+react
+constroter 생명주기함수, 제일 먼저 실행 될 함수 -> component
+component 단위로 페이지를 구성, 연결해준다, 리액트에서 화면을 보여줄 구성
+import = require (node에서 사용 중, react에선 둘다 가능하다는 걸 안내 하기 위해서, 그리고 한번에 통일 해두는게 좋다)
+파라미터 -> queryString
+
+export 밖으로 내보낸다 -> 선언한 클래스와 동일 해야한다.
+호출 할 때는 this를 붙인다
+ex. callApi를 호출하기 위해선 this.callApi (노드를 호출하는 API)
+fetch, axios -> 노드경로를 지정,  호출할 때
+fetch 함수 다음에 호출 할 때, 비동기호출함수
+fetch는 react에서 기본으로 제공이 되어 따로 설치가 필요없음
+axious import로 따로 설치
+
+json -> 값을 react서버에서 가져다 쓰고 싶지만 가지고 올 방법이 없다. 하지만 key value값으로 가져온다면 간단하게 쓸 수 있다. 만약 텍스트로 가져오게 된다면 배열로 된다.
+request ==! response
+react에서 노드서버로 요청, 노드에 데이터를 넘겨줄 때ㅐ
+user.js -> next 만약 다른 데이터가 있을 때 
+response 노드에서 리액틑로 반응한다
+
+props 개념 확인하기
+
+import 외부에 있는걸 사용하기 위해 가져올 때 선언
+routing 보여질 페이지를 연결한다.
+react에서는 img태그 후 require를 해줘야한다. html코드를 사용하기 위해선 괄호로 묶어줘야한다.
+
+변수의 선언과 할당, setState(리액트에서만 사용 하는 함수)는 둘다 가능, 
+선언 =생성, 값을 넣어준다
+할당 = 
